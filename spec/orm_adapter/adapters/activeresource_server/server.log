@@ -1,0 +1,829 @@
+[2012-05-08 00:39:21] INFO  WEBrick 1.3.1
+[2012-05-08 00:39:21] INFO  ruby 1.9.2 (2011-07-09) [x86_64-darwin10.8.0]
+[2012-05-08 00:39:21] INFO  WEBrick::HTTPServer#start: pid=40871 port=31777
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /users.json HTTP/1.1" 200 - 0.0744
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /notes.json HTTP/1.1" 200 - 0.0081
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /users.json HTTP/1.1" 200 - 0.0061
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /notes.json HTTP/1.1" 200 - 0.0059
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /users.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /notes.json HTTP/1.1" 200 - 0.0048
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /users.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /notes.json HTTP/1.1" 200 - 0.0048
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /users.json HTTP/1.1" 200 - 0.0054
+127.0.0.1 - - [08/May/2012 00:39:22] "GET /notes.json HTTP/1.1" 200 - 0.0048
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0787
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users/1.json HTTP/1.1" 200 - 0.0071
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0125
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/1.json HTTP/1.1" 200 - 0.0803
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0067
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0525
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users/2.json HTTP/1.1" 200 - 0.0054
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0229
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/2.json HTTP/1.1" 200 - 0.0043
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users/non-exitent%20id.json HTTP/1.1" 404 25582 0.0222
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0053
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0077
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json?id=3 HTTP/1.1" 200 - 0.0052
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/3.json HTTP/1.1" 200 - 0.0040
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0048
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0255
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json?id=4 HTTP/1.1" 200 - 0.0054
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0051
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/4.json HTTP/1.1" 200 - 0.0043
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0050
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json?id=non-exitent+id HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0046
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0074
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json?name=Fred&order= HTTP/1.1" 200 - 0.0082
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0060
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/5.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0053
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json?name=Betty&order= HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0240
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0048
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0076
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0076
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /notes.json HTTP/1.1" 201 - 0.0120
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /notes.json HTTP/1.1" 201 - 0.0094
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json?order=&owner_id=6 HTTP/1.1" 200 - 0.0051
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0053
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/6.json HTTP/1.1" 200 - 0.0047
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/7.json HTTP/1.1" 200 - 0.0038
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0053
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /notes/1.json HTTP/1.1" 200 - 0.0047
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /notes/2.json HTTP/1.1" 200 - 0.0241
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0078
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0072
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json?order=name+asc%2Crating+desc HTTP/1.1" 200 - 0.0054
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/8.json HTTP/1.1" 200 - 0.0041
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/9.json HTTP/1.1" 200 - 0.0036
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0079
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0073
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json?name=Fred&order=rating+desc HTTP/1.1" 200 - 0.0057
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0050
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/10.json HTTP/1.1" 200 - 0.0039
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/11.json HTTP/1.1" 200 - 0.0229
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0055
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0077
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0071
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0068
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json?name=Fred&order= HTTP/1.1" 200 - 0.0052
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0052
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/12.json HTTP/1.1" 200 - 0.0039
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/13.json HTTP/1.1" 200 - 0.0039
+127.0.0.1 - - [08/May/2012 00:39:23] "DELETE /users/14.json HTTP/1.1" 200 - 0.0034
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0046
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json?name=Fred&order= HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /users.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json HTTP/1.1" 200 - 0.0049
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0265
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /users.json HTTP/1.1" 201 - 0.0072
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /notes.json HTTP/1.1" 201 - 0.0084
+127.0.0.1 - - [08/May/2012 00:39:23] "POST /notes.json HTTP/1.1" 201 - 0.0082
+127.0.0.1 - - [08/May/2012 00:39:23] "GET /notes.json?order=&owner_id=16 HTTP/1.1" 200 - 0.0051
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users.json HTTP/1.1" 200 - 0.0050
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/15.json HTTP/1.1" 200 - 0.0043
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/16.json HTTP/1.1" 200 - 0.0037
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /notes.json HTTP/1.1" 200 - 0.0053
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /notes/3.json HTTP/1.1" 200 - 0.0044
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /notes/4.json HTTP/1.1" 200 - 0.0040
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /users.json HTTP/1.1" 201 - 0.0080
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /users.json HTTP/1.1" 201 - 0.0072
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /users.json HTTP/1.1" 201 - 0.0262
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users.json?order=name+asc%2Crating+desc HTTP/1.1" 200 - 0.0056
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users.json HTTP/1.1" 200 - 0.0050
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/17.json HTTP/1.1" 200 - 0.0041
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/18.json HTTP/1.1" 200 - 0.0038
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/19.json HTTP/1.1" 200 - 0.0037
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /notes.json HTTP/1.1" 200 - 0.0048
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /users.json HTTP/1.1" 201 - 0.0074
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /users.json HTTP/1.1" 201 - 0.0074
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /users.json HTTP/1.1" 201 - 0.0072
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users.json?name=Fred&order=rating+desc HTTP/1.1" 200 - 0.0054
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users.json HTTP/1.1" 200 - 0.0051
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/20.json HTTP/1.1" 200 - 0.0039
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/21.json HTTP/1.1" 200 - 0.0222
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/22.json HTTP/1.1" 200 - 0.0045
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /notes.json HTTP/1.1" 200 - 0.0051
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /users.json HTTP/1.1" 201 - 0.0073
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users/23.json HTTP/1.1" 200 - 0.0051
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users.json HTTP/1.1" 200 - 0.0048
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/23.json HTTP/1.1" 200 - 0.0039
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /notes.json HTTP/1.1" 200 - 0.0048
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /notes.json HTTP/1.1" 201 - 0.0073
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users.json HTTP/1.1" 200 - 0.0051
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /notes.json HTTP/1.1" 200 - 0.0048
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /notes/5.json HTTP/1.1" 200 - 0.0041
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /users.json HTTP/1.1" 201 - 0.0075
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /notes.json HTTP/1.1" 201 - 0.0078
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /notes/6.json HTTP/1.1" 200 - 0.0232
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users/24.json HTTP/1.1" 200 - 0.0052
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users.json HTTP/1.1" 200 - 0.0052
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /users/24.json HTTP/1.1" 200 - 0.0040
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /notes.json HTTP/1.1" 200 - 0.0062
+127.0.0.1 - - [08/May/2012 00:39:24] "DELETE /notes/6.json HTTP/1.1" 200 - 0.0043
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /notes.json HTTP/1.1" 201 - 0.0070
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /notes.json HTTP/1.1" 201 - 0.0078
+127.0.0.1 - - [08/May/2012 00:39:24] "POST /users.json HTTP/1.1" 201 - 0.0107
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /users/25.json HTTP/1.1" 200 - 0.0050
+127.0.0.1 - - [08/May/2012 00:39:24] "GET /notes.json?owner_id=25 HTTP/1.1" 200 - 0.0052
+0.2ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.2ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred"}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Fred', NULL)[0m
+Completed 201 Created in 6ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json?name=Fred&order=" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  Parameters: {"name"=>"Fred", "order"=>""}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Fred'
+Completed 200 OK in 6ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/5.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 5[0m
+Completed 200 OK in 3ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.3ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users.json?name=Betty&order=" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  Parameters: {"name"=>"Betty", "order"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'Betty'[0m
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  [1m[36mNote Load (0.2ms)[0m  [1mSELECT "notes".* FROM "notes"[0m
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{}}
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("name", "rating") VALUES (NULL, NULL)
+Completed 201 Created in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES (NULL, NULL)[0m
+Completed 201 Created in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#create as JSON
+  Parameters: {"note"=>{"owner"=>{"user"=>{"id"=>7, "name"=>nil, "rating"=>nil}}}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "notes" ("owner_id", "owner_type") VALUES (7, NULL)[0m
+Completed 201 Created in 10ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#create as JSON
+  Parameters: {"note"=>{"owner"=>{"user"=>{"id"=>6, "name"=>nil, "rating"=>nil}}}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "notes" ("owner_id", "owner_type") VALUES (6, NULL)[0m
+Completed 201 Created in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notes.json?order=&owner_id=6" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  Parameters: {"order"=>"", "owner_id"=>"6"}
+  [1m[35mNote Load (0.3ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."owner_id" = 6
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/6.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 6[0m
+Completed 200 OK in 3ms
+
+
+Started DELETE "/users/7.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 7[0m
+Completed 200 OK in 2ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.3ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/notes/1.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#destroy as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."id" = 1 LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = 1
+Completed 200 OK in 3ms
+
+
+Started DELETE "/notes/2.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#destroy as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."id" = 2 LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = 2
+Completed 200 OK in 3ms
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred", "rating"=>1}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Fred', 1)[0m
+Completed 201 Created in 6ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred", "rating"=>2}}
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("name", "rating") VALUES ('Fred', 2)
+Completed 201 Created in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json?order=name+asc%2Crating+desc" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  Parameters: {"order"=>"name asc,rating desc"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY name asc,rating desc[0m
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/8.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "users" WHERE "users"."id" = 8
+Completed 200 OK in 3ms
+
+
+Started DELETE "/users/9.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "users" WHERE "users"."id" = 9
+Completed 200 OK in 2ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  [1m[36mNote Load (0.2ms)[0m  [1mSELECT "notes".* FROM "notes"[0m
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred", "rating"=>1}}
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("name", "rating") VALUES ('Fred', 1)
+Completed 201 Created in 6ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred", "rating"=>2}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Fred', 2)[0m
+Completed 201 Created in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json?name=Fred&order=rating+desc" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  Parameters: {"name"=>"Fred", "order"=>"rating desc"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Fred' ORDER BY rating desc
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/10.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"10"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 10[0m
+Completed 200 OK in 2ms
+
+
+Started DELETE "/users/11.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"11"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 11 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 11[0m
+Completed 200 OK in 21ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.3ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred"}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Fred', NULL)[0m
+Completed 201 Created in 6ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred"}}
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("name", "rating") VALUES ('Fred', NULL)
+Completed 201 Created in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Betty"}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Betty', NULL)[0m
+Completed 201 Created in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json?name=Fred&order=" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  Parameters: {"name"=>"Fred", "order"=>""}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Fred'
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/12.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"12"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 12 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 12[0m
+Completed 200 OK in 2ms
+
+
+Started DELETE "/users/13.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"13"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 13 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 13[0m
+Completed 200 OK in 2ms
+
+
+Started DELETE "/users/14.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"14"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 14 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 14[0m
+Completed 200 OK in 2ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.2ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users.json?name=Fred&order=" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  Parameters: {"name"=>"Fred", "order"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."name" = 'Fred'[0m
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  [1m[36mNote Load (0.2ms)[0m  [1mSELECT "notes".* FROM "notes"[0m
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{}}
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("name", "rating") VALUES (NULL, NULL)
+Completed 201 Created in 7ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES (NULL, NULL)[0m
+Completed 201 Created in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#create as JSON
+  Parameters: {"note"=>{"owner"=>{"user"=>{"id"=>15, "name"=>nil, "rating"=>nil}}}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 15 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "notes" ("owner_id", "owner_type") VALUES (15, NULL)[0m
+Completed 201 Created in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#create as JSON
+  Parameters: {"note"=>{"owner"=>{"user"=>{"id"=>16, "name"=>nil, "rating"=>nil}}}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 16 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "notes" ("owner_id", "owner_type") VALUES (16, NULL)[0m
+Completed 201 Created in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notes.json?order=&owner_id=16" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by NotesController#index as JSON
+  Parameters: {"order"=>"", "owner_id"=>"16"}
+  [1m[35mNote Load (0.2ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."owner_id" = 16
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:23 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/15.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"15"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 15 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 15[0m
+Completed 200 OK in 3ms
+
+
+Started DELETE "/users/16.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"16"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 16 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 16[0m
+Completed 200 OK in 2ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.3ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/notes/3.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#destroy as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."id" = 3 LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = 3
+Completed 200 OK in 3ms
+
+
+Started DELETE "/notes/4.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#destroy as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."id" = 4 LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = 4
+Completed 200 OK in 2ms
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred", "rating"=>1}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Fred', 1)[0m
+Completed 201 Created in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred", "rating"=>2}}
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("name", "rating") VALUES ('Fred', 2)
+Completed 201 Created in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Betty", "rating"=>1}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Betty', 1)[0m
+Completed 201 Created in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json?order=name+asc%2Crating+desc" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#index as JSON
+  Parameters: {"order"=>"name asc,rating desc"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" ORDER BY name asc,rating desc
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/17.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"17"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 17 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 17[0m
+Completed 200 OK in 3ms
+
+
+Started DELETE "/users/18.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"18"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 18 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 18[0m
+Completed 200 OK in 2ms
+
+
+Started DELETE "/users/19.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"19"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 19 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 19[0m
+Completed 200 OK in 2ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.3ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred", "rating"=>1}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Fred', 1)[0m
+Completed 201 Created in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred", "rating"=>2}}
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("name", "rating") VALUES ('Fred', 2)
+Completed 201 Created in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Betty", "rating"=>1}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Betty', 1)[0m
+Completed 201 Created in 5ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json?name=Fred&order=rating+desc" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#index as JSON
+  Parameters: {"name"=>"Fred", "order"=>"rating desc"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Fred' ORDER BY rating desc
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/20.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"20"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 20 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 20[0m
+Completed 200 OK in 2ms
+
+
+Started DELETE "/users/21.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"21"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 21 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 21[0m
+Completed 200 OK in 2ms
+
+
+Started DELETE "/users/22.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"22"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 22 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 22[0m
+Completed 200 OK in 3ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.2ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"name"=>"Fred"}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES ('Fred', NULL)[0m
+Completed 201 Created in 6ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/23.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#show as JSON
+  Parameters: {"id"=>"23"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 23 LIMIT 1
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/23.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"23"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 23 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 23[0m
+Completed 200 OK in 2ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.2ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#create as JSON
+  Parameters: {"note"=>{}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "notes" ("owner_id", "owner_type") VALUES (NULL, NULL)[0m
+Completed 201 Created in 6ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#index as JSON
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#index as JSON
+  [1m[36mNote Load (0.2ms)[0m  [1mSELECT "notes".* FROM "notes"[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/notes/5.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#destroy as JSON
+  Parameters: {"id"=>"5"}
+  [1m[35mNote Load (0.3ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."id" = 5 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "notes" WHERE "notes"."id" = 5[0m
+Completed 200 OK in 2ms
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{}}
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "users" ("name", "rating") VALUES (NULL, NULL)
+Completed 201 Created in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#create as JSON
+  Parameters: {"note"=>{"owner"=>{"user"=>{"id"=>24, "name"=>nil, "rating"=>nil}}}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 24 LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "notes" ("owner_id", "owner_type") VALUES (24, NULL)
+Completed 201 Created in 6ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notes/6.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."id" = 6 LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/24.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#show as JSON
+  Parameters: {"id"=>"24"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 24 LIMIT 1
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/24.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"24"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 24 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = 24[0m
+Completed 200 OK in 2ms
+
+
+Started GET "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#index as JSON
+  [1m[35mNote Load (0.3ms)[0m  SELECT "notes".* FROM "notes"
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/notes/6.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#destroy as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."id" = 6 LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = 6
+Completed 200 OK in 3ms
+
+
+Started POST "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#create as JSON
+  Parameters: {"note"=>{}}
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "notes" ("owner_id", "owner_type") VALUES (NULL, NULL)[0m
+Completed 201 Created in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/notes.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#create as JSON
+  Parameters: {"note"=>{}}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "notes" ("owner_id", "owner_type") VALUES (NULL, NULL)
+Completed 201 Created in 6ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"notes"=>[{"note"=>{"id"=>7, "owner_id"=>nil, "owner_type"=>nil}}, {"note"=>{"id"=>8, "owner_id"=>nil, "owner_type"=>nil}}]}}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."id" = 7 LIMIT 1[0m
+  [1m[35mNote Load (0.1ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."id" = 8 LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "rating") VALUES (NULL, NULL)[0m
+  [1m[35mAREL (0.1ms)[0m  UPDATE "notes" SET "owner_id" = 25 WHERE "notes"."id" = 7
+  [1m[36mAREL (0.0ms)[0m  [1mUPDATE "notes" SET "owner_id" = 25 WHERE "notes"."id" = 8[0m
+Completed 201 Created in 9ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/25.json" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by UsersController#show as JSON
+  Parameters: {"id"=>"25"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 25 LIMIT 1
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notes.json?owner_id=25" for 127.0.0.1 at 2012-05-08 00:39:24 +0200
+  Processing by NotesController#index as JSON
+  Parameters: {"owner_id"=>"25"}
+  [1m[36mNote Load (0.3ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."owner_id" = 25[0m
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.3ms)
